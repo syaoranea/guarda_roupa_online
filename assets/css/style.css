@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&display=swap');
+
 /***RESETAR CONFIGURAÇÕES DOS NAVEGADORES ***/
 *{
     margin: 0;
@@ -7,15 +9,18 @@
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #fd7e14;
-    height: 8vh;
+    font-family: 'Baloo 2', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    height: 90px;
+    width: 100%;
+    padding: 40px;
 }
   
 a{
-    color: #fff;
+    color: #303960;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -23,20 +28,20 @@ a{
 .nav-list{
     list-style: none;
     display: flex;
+    justify-content: space-around;
+    width: 80%;
 }
   
 .nav-list li{
-    letter-spacing: 3px;
     margin-left: 32px;
-    font-weight: 600;
     margin-top: 20px;
     padding-bottom: 24px;
 }
   
-.nav-list li a:hover{
-  border-bottom: 4px solid #fff;
+.linka:hover{
+  border-bottom: 4px solid #f8b24f;
   margin-top: 20px;
-  padding-bottom: 24px;
+  padding-bottom: 10px;
 }
   
 .mobile-menu{
@@ -54,14 +59,23 @@ a{
   
 .botao{
     color: #ffffff;
-    border-color: rgba(0,0,0,0);
-    border-radius: 29px;
-    letter-spacing: 0px;
-    font-size: px;
-    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 600;
-    background-color: #EC7000;
-    padding: 10px 30px 10px 30px;
+    border-radius: 6px;
+    background-color: #303960;
+    padding: 5px 15px 5px 15px;
+    margin-left: 24px;
+}
+
+.botao:hover{
+    color: #303960;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 5px 15px 5px 15px;
+    margin-left: 24px;
+}
+
+.content{
+    width: 100%;
+    background-color: #e5e5e5;
 }
   
  
