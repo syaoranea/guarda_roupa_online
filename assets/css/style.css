@@ -65,7 +65,17 @@ a{
     margin-left: 24px;
 }
 
-.botao:hover{
+.botaov{
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #303960;
+    padding: 5px 15px 5px 15px;
+    margin-left: 24px;
+    display: none;
+}
+
+.botao:hover,
+.botaov:hover{
     color: #303960;
     border-radius: 6px;
     background-color: #fff;
@@ -91,7 +101,7 @@ a{
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: #EC7000;
+      background: #e5e5e5;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
@@ -104,7 +114,14 @@ a{
     }
     .mobile-menu {
       display: block;
-    }    
+    }
+    .botaov{
+        display: block;
+    }
+    .botao{
+        display: none;
+    }
+
 }
   
 .nav-list.active{
