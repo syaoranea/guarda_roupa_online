@@ -87,8 +87,50 @@ a{
     width: 100%;
     background-color: #e5e5e5;
 }
-  
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-family: 'Baloo 2', Helvetica, Arial, sans-serif;
+    color: #303960;
+}
+main img{
+    width: 26vw;
+}
+
+.content2{
+    width: 46vw;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
  
+h1{
+    font-size: 92px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 80px; 
+    padding: 10px;
+}
+
+main p{
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+main a{
+    font-size: 22px;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /***ESTILO PARA AJUSTE EM DIFERENTES RESOLUÇÃO ***/
   
 @media (max-width: 799px) {
