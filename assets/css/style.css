@@ -100,7 +100,7 @@ main img{
 }
 
 .content2{
-    width: 46vw;
+    width: 44vw;
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +109,7 @@ main img{
 }
  
 h1{
-    font-size: 92px;
+    font-size: max(43px, 4.8vw);
     font-weight: 700;
     text-align: center;
     line-height: 80px; 
@@ -117,7 +117,7 @@ h1{
 }
 
 main p{
-    font-size: 24px;
+    font-size: max(16px, 1.8vw);
     letter-spacing: 2px;
     padding-bottom: 30px;
 }
@@ -132,6 +132,18 @@ main a{
     justify-content: center;
 }
 /***ESTILO PARA AJUSTE EM DIFERENTES RESOLUÇÃO ***/
+
+@media (max-width: 1600px) {
+    h1{
+        line-height: 60px; 
+    }
+}
+
+@media (max-width: 990px) {
+    h1{
+        line-height: 40px; 
+    }
+}
   
 @media (max-width: 799px) {
     body {
